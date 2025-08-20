@@ -10,6 +10,7 @@ print("LISTA DE PRODUTOS")
 for nome, preco, qt in produtos:
     print(f"{nome:.<20} {preco:.2f} X {qt} = R$ {preco * qt:.2f}")
     Total = Total + preco * qt
-print (f'valor total da compra : R$ {Total} ')
-print(f'DEsconto : ')
-print(f'Valor Final: ')
+
+print (f'\t valor total da compra : R$ {Total} ')
+print(f'\t DEsconto : - 10% ')
+print(f'\t Valor Final: {(Total * 0.9):.2f} ')
